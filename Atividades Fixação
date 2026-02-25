@@ -92,4 +92,106 @@
 
 /*
 
+/* Atividade 3 *//* Atividade 1 */
+
+//int total = 0;
+//int a = 0;
+//int b = 0;
+//int c = 0;
+//int d = 0;
+//int e = 0;
+
+//while (true){
+//    Console.WriteLine("Digite uma idade: ");
+//    int idade = int.Parse(Console.ReadLine());
+//    if (idade <= 0)
+//    {
+//        break;
+//    }
+//    else if(idade > 0 && idade <= 15)
+//    {
+//        a++;
+//    }
+//    else if (idade > 15 && idade <= 30)
+//    {
+//        b++;
+//    }
+//    else if (idade > 30 && idade <= 45)
+//    {
+//        c++;
+//    }
+//    else if (idade > 45 && idade <= 60)
+//    {
+//        d++;
+//    }
+//    else
+//    {
+//        e++;
+//    }
+//    total++;
+//}
+//if(total > 0)
+//{
+//    Console.WriteLine($"\nIdade A: {(a * 100) / total:F2}%");
+//    Console.WriteLine($"Idade B: {(b * 100) / total:F2}%");
+//    Console.WriteLine($"Idade C: {(c * 100) / total:F2}%");
+//    Console.WriteLine($"Idade D: {(d * 100) / total:F2}%");
+//    Console.WriteLine($"Idade E: {(e * 100) / total:F2}%");
+//}
+//else
+//{
+//    Console.WriteLine("\nNenhuma idade Digitada");
+//}
+
+/* Atividade 2 */
+
+//while (true)
+//{
+//    double c;
+//    double f;
+//    double k;
+
+//    Console.WriteLine("Digite 1 para Celsius");
+//    Console.WriteLine("Digite 2 para Fahrenheit");
+//    Console.WriteLine("Digite 3 para Kelvin");
+//    int opcao = int.Parse(Console.ReadLine());
+//    switch (opcao)
+//    {
+//        case 1:
+//            Console.WriteLine("Digite valor de Celsius: ");
+//            c = int.Parse(Console.ReadLine());
+//            f = c * 1.8 + 32;
+//            k = c + 273.15;
+//            Console.WriteLine($"Fahrenheit: {f:F2}º, Kelvin: {k:F2}º ");
+//            break;
+//        case 2:
+//            Console.WriteLine("Digite valor de Fahrenheit: ");
+//            f = int.Parse(Console.ReadLine());
+//            c = (f - 32) / 1.8;
+//            k = c + 273.15;
+//            Console.WriteLine($"Celsius: {c:F2}º, Kelvin: {k:F2}º ");
+//            break;
+//        case 3:
+//            Console.WriteLine("Digite valor de Kelvin: ");
+//            k = int.Parse(Console.ReadLine());
+//            c = k - 273.15;
+//            f = c * 1.8 + 32;
+//            Console.WriteLine($"Celsius: {c:F2}º, Fahrenheit: {f:F2}º ");
+//            break;
+//        default:
+//            Console.WriteLine("Opção inexistente");
+//            break;
+//    }
+//    break;
+
+/*
+
 /* Atividade 3 */
+
+//double temperatura = 0;
+//for (int i = 0; i < 15; i++)
+//{
+//    Console.WriteLine("Digite a temperatura: ");
+//    temperatura += double.Parse(Console.ReadLine());
+//}
+//Console.WriteLine($"Temperatura média: {(temperatura / 15):F2}");
