@@ -1,0 +1,20 @@
+﻿<Window x:Class="Atividade1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Atividade1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200
+        " Width="400">
+    <Grid Margin="0,0,-7,0">
+        <Button x:Name="ButtonConverter" Content="Converter
+                " HorizontalAlignment="Left" Margin="122,84,0,0" VerticalAlignment="Top" Width="60" Click="ButtonConverter_Click"/>
+        <TextBox x:Name="TextBoxValor" HorizontalAlignment="Left" Margin="122,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="194,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="84" Fill="#FFDCCACA"/>
+        <Label Content="Graus Celsius" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,62,0,0" RenderTransformOrigin="0.744,0.554" Height="32" Width="84" Background="{x:Null}" FontSize="10"/>
+        <Label x:Name="LabelResposta" Content="Graus Fahrenheit" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.132,-1.286" Height="40" Width="72" Background="{x:Null}" FontSize="8" Margin="200,84,0,0"/>
+        <Label Content="Converte graus Celsius para..." HorizontalAlignment="Center"  VerticalAlignment="Top" Width="150" FontSize="9" Margin="0,34,0,0"/>
+    </Grid>
+</Window>
+
